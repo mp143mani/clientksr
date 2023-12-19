@@ -1,0 +1,75 @@
+/* Updated styles for a more attractive register page */
+
+/* Background gradient and container styles */
+.form-container {
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Adjusted minimum height */
+    background: linear-gradient(135deg, #ff7e5f, #feb47b); /* Vibrant gradient */
+  }
+  
+  .form-container form {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2); /* Enhanced box shadow */
+    padding: 40px; /* Increased padding for more space */
+    background-color: #fff;
+    border-radius: 10px; /* Rounded corners for the form */
+    width: 80%; /* Adjusted form width */
+    max-width: 500px; /* Maximum form width */
+  }
+  
+  /* Title styles */
+  .form-container form .title {
+    text-align: center;
+    margin-bottom: 30px; /* Increased margin */
+    font-weight: bold;
+    font-family: "Roboto", sans-serif; /* Updated font family */
+    font-size: 24px; /* Adjusted font size */
+    color: #333; /* Darkened title color */
+  }
+  
+  /* Input field styles */
+  .form-container form input {
+    border: none;
+    border-bottom: 2px solid #ff7e5f; /* Highlighted bottom border */
+    border-radius: 0;
+    padding: 10px;
+    margin-bottom: 20px; /* Increased bottom margin */
+    transition: border-bottom 0.3s ease; /* Smooth transition for hover/focus */
+  }
+  
+  .form-container form input:focus {
+    outline: none;
+    border-bottom: 2px solid #feb47b; /* Different color on focus */
+  }
+  
+  /* Button styles */
+  .form-container form button {
+    border: none;
+    border-radius: 5px;
+    background-color: #ff7e5f;
+    color: white;
+    padding: 12px 24px; /* Increased padding for button */
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+  }
+  
+  .form-container form button:hover {
+    background-color: #feb47b; /* Different color on hover */
+  }
+  
+  /* Additional styles for the forgot password button */
+  .forgot-btn {
+    background-color: transparent;
+    border: none;
+    color: #333;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .forgot-btn:hover {
+    color: #feb47b; /* Different color on hover */
+  }
+  

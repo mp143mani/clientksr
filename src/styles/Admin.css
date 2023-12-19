@@ -1,0 +1,27 @@
+/* AdminDashboard.css */
+
+.custom-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-size: 24px;
+  color: #333;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.details {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.details p {
+  margin-bottom: 10px;
+}
+
+/* Customize further as needed */
